@@ -5,6 +5,8 @@
 //get messed up and thought that there was a global keyword for global variables
 //infinite loops are scary when its just printing thousands of lines on your terminal
 
+//forward declaration: declare the function type, arguments, and name
+
 using namespace std;
 
 int getHeight(int height);
