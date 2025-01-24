@@ -6,4 +6,7 @@ data structures and namespaces, etc. also to help me with memory management conc
 
 # work completed so far
 chap 4 (finished)
-chap 5 (in-progress)
+
+chap 5 (finished)
+
+chap 6 (in-progress)
