@@ -17,11 +17,11 @@ int main () {
   double num1, num2;
   char operand;
 
-  cout << "enter two numbers to preform operations on\n";
-  cin >> num1 >> num2;
-  cout << "your two numbers are " << num1 << " and " <<  num2 << "\n"; 
-  cout << "your operation type is: ";
-  cin >> operand;
+   cout << "enter two numbers to preform operations on\n";
+   cin >> num1 >> num2;
+   cout << "your two numbers are " << num1 << " and " <<  num2 << "\n"; 
+   cout << "your operation type is: ";
+   cin >> operand;
   
 
   cout << "Output: ";
