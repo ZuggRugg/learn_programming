@@ -11,4 +11,6 @@ chap 5 (finished)
 
 chap 6 (finished)
 
-chap 7 (in-progress)
+chap 7 (finished)
+
+chap 8 (in-progress)

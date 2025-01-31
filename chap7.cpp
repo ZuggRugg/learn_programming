@@ -20,9 +20,8 @@ extern int glib{5}; //example of "External Linkage" regular variables are extern
 //you can also declare a function as static and it wont be linkable outside of its working file
 //next they talk about how non const global variables are evil becuase they can be changed by any function at run-time
 
-
 int main() {
-  
+
   std::cout << "\n";
 
   //inner block that has its own scope
@@ -37,7 +36,8 @@ int main() {
   //namespace is accessed with scope resoluter ::
   std::cout << Foo::z << "\n";
   std::cout << Foo::add(x,y) << "\n";
-  
+
+
   return 0;
 }
 
@@ -47,3 +47,5 @@ int main() {
 int max(int a, int b){
   return ((a > b) ? a : b);
 }
+
+
