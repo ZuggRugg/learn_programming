@@ -23,15 +23,30 @@ int main() {
    if(x == 0){goto retry;}
    //goto statements are almost always not good to use other than maybe getting out of a nested loop
 
- 
+
    //basic for loop that prints out ten integers
    std::cout << "This is a basic double for-loop that prints a pyramid of integers\n";
-  for(int i = 0; i < 10; i++) {
+  for(int i = 0; i < 10; ++i) {
+   if(i % 2 != 0) {std::cout << "executing continue statement at odd integer: "; continue;}
     for(int j = 0; j < i; j++) {
      std::cout << j << " ";
      if(j == (i-1)) {std::cout << "\n";}
     }
 }
+
+
+  //break statements, can be used to exit any kind of loop;
+  while(option) {std::cout << "executed 'break' inside if loop\n"; break;}
+  //break can also get out of an intentional infinite loop
+  //break "breaks" out of a loop, while the return statement exits out of a function.
+  // a continue statement will end the current iteration of the loop and go to the next iteration
+
+  //halts are control flow statements that exit out of your program early.
+  // std::exit() is used in the <cstdlib> library and terminates the program early
+  //when exiting memory cleanup is not done properly by compiler so you make sure
+  //when using exit function to use std::atexit() to call any other functions to clean up memory,
+  // disconnect databases or log to any files
+
 
 
    return 0;
