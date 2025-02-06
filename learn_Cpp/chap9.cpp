@@ -34,9 +34,9 @@ int main() {
 
   //Input Validation (make sure that the Input given by the User is correct)
 
-  std::string Myname = getInput();
+  // std::string Myname = getInput();
 
-  std::cout << Myname;
+  // std::cout << Myname;
 
   return 0;
 }
