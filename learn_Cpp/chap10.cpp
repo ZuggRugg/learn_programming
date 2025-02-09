@@ -12,13 +12,15 @@
 
 // As the name implies, a double has 2x the precision of float[1].
 // In general a double has 15 decimal digits of precision, while float has 7.
+//hopefully this is the end of the more theroetical chapters for now
+
 
 
 // function to print number as an integer
 void printInt(int x)
 {
     std::cout << x << '\n';
-}
+} 
 
   
 int main() { 
@@ -46,7 +48,6 @@ int l{15};
 // explicitly turn z into a double
 double T = (double)z/ r;
 std::cout << T;
-
 // this is called C-style casting and should be avoided in c++
 
 // instead use static casting
@@ -54,8 +55,7 @@ double d{static_cast<double>(z) / l};
 std::cout << "\n" << d;
 //static typing provides compile time errors if there is any logic or semantic issues unlike C typing
 
- 
-
+ // sizeof() operator finds size in bytes but the size_t() finds the fixed width
 
   return 0;
 }
