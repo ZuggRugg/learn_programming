@@ -1,24 +1,15 @@
 # Practice files
 
 These are my practice files to help introduce myself to languages like Python, C++, C
-
+and Concepts like Memory Management, DSA, OOP, and more.
 
 # C++
 
 ## LearnCpp
 
-chap 4 (finished)
+Chapters 4-10 (finished)
 
-chap 5 (finished)
-
-chap 6 (finished)
-
-chap 7 (finished)
-
-chap 8 (finished)
-
-chap 9 (finished)
-
+Chapter 11 (In-Progress)
 
 # Python
 
@@ -27,8 +18,9 @@ chap 9 (finished)
 Documentation Chapters 3-4 Done
 
 
-
 # C
 
 C Programming Language, 2nd Edition by Brian W Kernighan, Dennis
-Chapters (Placeholder) - (Placeholder)
+Chapters (Chapter 1) - (Chapter ???)
+
+
