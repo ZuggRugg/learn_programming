@@ -5,7 +5,7 @@ and Concepts like Memory Management, DSA, OOP, and more.
 
 # C++
 
-## LearnCpp
+### LearnCpp
 
 Chapters 4-10 (finished)
 
@@ -13,9 +13,9 @@ Chapter 11 (In-Progress)
 
 # Python
 
-## Python3
+### Python3
 
-Documentation Chapters 3-4 Done
+Official Python3 Tutorial Chapters 3-8 Done
 
 
 # C
