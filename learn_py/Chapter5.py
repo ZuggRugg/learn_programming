@@ -30,8 +30,9 @@ print(a)
 #you can use a list as a stack by exclusively using the pop and append methods
 #for pushing and poping on the stack.
 
-#you can use a list as a queue by this
+#You Can Use A List As A Queue By This
 #from collections import deque
+
 #use append and popleft for operations in Queue
 
 #can also use the del statement to remove elements from list of a slice of the list
@@ -39,7 +40,7 @@ print(a)
 
 
 
-#tuples and sequences:
+#Tuples And Sequences:
 #tuples are a number of values seperated by commas
 
 t = 12345, 54321, 'hello!'
