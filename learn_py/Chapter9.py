@@ -108,5 +108,9 @@ Baggy.print()
 #     .
 #     <statement-N>
 
+# derived class for base class
+class Box(Bag):
+    i = 5
+
 
 

@@ -7,20 +7,20 @@ and Concepts like Memory Management, DSA, OOP, and more.
 
 ### LearnCpp
 
-Chapters 4-10 (finished)
+- Chapters 4-12 (finished)
 
-Chapter 11 (In-Progress)
+- Chapter 13 (In-Progress)
 
 # Python
 
 ### Python3
 
-Official Python3 Tutorial Chapters 3-8 Done
+- Official Python3 Tutorial Chapters 3-13 (Entire Tutorial Complete)
 
 
 # C
 
-C Programming Language, 2nd Edition by Brian W Kernighan, Dennis
+## C Programming Language, 2nd Edition by Brian W Kernighan, Dennis
 Chapters (Chapter 1) - (Chapter ???)
 
 
