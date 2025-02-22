@@ -5,7 +5,6 @@
 // LearnCPP Chapter 12 Notes introduction to Pointers
 
 // C++ supports the following compound types:
-
 //     Functions
 //     C-style Arrays
 //     Pointer types:
@@ -67,12 +66,29 @@ int main() {
   // pass-by-value makes an expensive copy, reference makes a reference to lvalue object
   
 
-  // 12.7 Intro to Pointers
+
   // &x the adress of operator
   // Pointers are variables that contain memory addresss'
   // also called raw pointers to distinguish between them and smart pointers introduced in C++22
+  // Null Pointers: 
+  int * ptr2 = {};
 
+  // points to nothing currently
+  // dereferencing a null pointer segfaults
+  if(ptr2 == nullptr) {std::cout << "\nThis is a null pointer!!";}
+  // we can use nullptr to find dangling pointers and prevent them from crashing program
+  // if an object is destroyed then any pointers pointing towards it are now dangling
+
+  // const pointers:
+  const int * ptr3 = nullptr;
+  if(ptr3 == nullptr) {std::cout << "\nThis is a null pointer!!\n";}
+  // const pointers treat whatever it is pointing to as constant
+
+  // we can also make a pointer const itself using const keyword
+  int* const ptr4{&x};
   
+  std::cout << "Size of pointer in bytes " << sizeof(ptr4);
+
 
   return 0;
 }
