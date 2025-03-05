@@ -4,7 +4,11 @@ This is my directory for exploring common data structures, and algorithms that y
 a typical Leetcode or other competitive programming problem
 
 Here is the resource I will be using https://www.geeksforgeeks.org/dsa-tutorial-learn-data-structures-and-algorithms/
+Here are is a youtube channel: https://www.youtube.com/@randerson112358
 
+And here is playlist of the best Competitive Programmers in the world: 
+https://www.youtube.com/watch?v=oWgLjhM-6XE&list=PLrS21S1jm43igE57Ye_edwds_iL7ZOAG4
+He teaches DSA in this Course.
 
 ## Data Structures
 
