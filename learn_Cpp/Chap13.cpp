@@ -34,13 +34,20 @@ int main(void) {
   std::string newstr = getColor(bitch);
 
   std::cout << newstr << "\n";
-  std::cout << yellow;
+  std::cout << yellow << "\n";
 
  //------------------------------
  //TODO: Chapter 13.7 (Structs) |
  //------------------------------
 
+  struct thisn { int num1; int num2;};
+  thisn newthisn = {2, 4};
+  // malloc(sizeof(newthisn));
 
+  // use struct pointer and print out members in struct
+  thisn * fire;
+  fire = &newthisn;
+  std::cout << fire->num1 << " " << fire->num2;
 }
 
 
@@ -55,6 +62,8 @@ std::string getColor(poopfart object) {
   default: return "couldn't find relevant statement in enum"; break;
   }
 }
+
+
 
 
 
