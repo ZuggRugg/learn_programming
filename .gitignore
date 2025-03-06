@@ -1,0 +1,13 @@
+DSA/340.cpp
+learn_C/semaphor.c
+learn_Cpp/#Chap13.cpp#
+learn_Cpp/.#Chap13.cpp
+learn_Cpp/Chap13.exe
+learn_Cpp/a.exe
+learn_Cpp/test.cpp
+learn_py/__pycache__/
+
+
+*.exe
+*.htm
+
