@@ -5,6 +5,7 @@
 // Enumerations and Pointer shit
 // Enumerations are good to use when you want to associate words with integer values quickly
 
+struct thisn { int num1; int num2;};
 
 enum poopfart {
   poop  = 1,     // is == 1  
@@ -23,6 +24,7 @@ enum Color : uint16_t
 };
 
 std::string getColor(poopfart object);
+void print(const thisn& newthis);
 
 int main(void) {
   std::cout << "hello \n";
@@ -40,18 +42,22 @@ int main(void) {
  //TODO: Chapter 13.7 (Structs) |
  //------------------------------
 
-  struct thisn { int num1; int num2;};
+
   thisn newthisn = {2, 4};
   // malloc(sizeof(newthisn));
 
   // use struct pointer and print out members in struct
-  thisn * fire;
+  
+  const thisn * fire;
   fire = &newthisn;
-  std::cout << fire->num1 << " " << fire->num2;
+  print(newthisn);
+  //we pass the const version of a struct to a void function to print the struct
 }
 
 
-
+void print(const thisn& newthis) {
+  std::cout << newthis.num1 << " " << newthis.num2 << "\n";
+}
 
 std::string getColor(poopfart object) {
   switch(object) {
