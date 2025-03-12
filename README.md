@@ -26,4 +26,7 @@ Chapters (Chapter 1) - (Chapter ???)
 
 # Elisp
 
-Official Tutorial Chapter (1-6) 
+## An Introduction to Programming in Emacs Lisp
+Chapter (1-7) Complete 
+
+    

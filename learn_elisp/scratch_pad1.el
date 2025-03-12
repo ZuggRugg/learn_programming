@@ -54,3 +54,82 @@
 
 ;;alternate way to make list
 (setcdr animals '(bird brain monkey))
+
+
+;; exercise question
+;; see what happens when you cons a list itself
+(cons '(daisy buttercup) '(daisy buttercup))
+
+;; create a list of four birds
+(setq birdlist (cons 'robin '(cardinal mockingbird pidgeon)))
+
+;; replace first element of list of birds
+(setcar birdlist 'snowbird)
+(message "%s" birdlist)
+
+
+;;----------------------------------------
+;; Chapter 8 Cutting and Storing Text    | 
+;;----------------------------------------
+
+;; The kill ring in emacs is a list that stores the killed text
+
+ (defun zap-to-char (arg char)
+       "Kill up to and including ARG'th occurrence of CHAR.
+     Case is ignored if `case-fold-search' is non-nil in the current buffer.
+     Goes backward if ARG is negative; error if CHAR not found."
+       (interactive "p\ncZap to char: ")
+       (if (char-table-p translation-table-for-input)
+           (setq char (or (aref translation-table-for-input char) char)))
+       (kill-region (point) (progn
+                              (search-forward (char-to-string char)
+                                              nil nil arg)
+                              (point))))
+
+
+
+;; char-table-p either returns true or false
+;; aref is a fucntion dealing with getting atom from an array
+;; The code below is basically setting the char as the target and then killing region from initial point
+;; to the new point where the first occurence of char
+
+;; ================================================================================
+       ;;  (setq char (or (aref translation-table-for-input char) char)))
+       ;; (kill-region (point) (progn
+       ;;                        (search-forward (char-to-string char)
+       ;;                                        nil nil arg)
+       ;;                        (point))))
+;; ================================================================================
+
+;; The expression Progn can evaluate each of its arguements before returning the last one in the list
+
+‘save-restriction’
+     Record whatever narrowing is in effect in the current buffer, if
+     any, and restore that narrowing after evaluating the arguments.
+
+
+‘funcall’
+     ‘funcall’ evaluates its first argument as a function.  It passes
+     its remaining arguments to its first argument.
+
+
+;;Test-Search Function
+(defun test-search (search)
+"Search for string in buffer and then return message if found"
+(interactive "sEnter a search string: ")
+(if (= (search-forward search) t)
+(message " Found!")
+(message " Not Found")
+))
+
+(test-search)
+
+
+(defun ask-name-and-age (x y)
+  "Ask name and age"
+  (interactive
+"sEnter name:
+nEnter age:")
+  (message "Name is: %s, Age is: %d" x y))
+
+
