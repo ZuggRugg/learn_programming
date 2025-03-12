@@ -1,15 +1,15 @@
 # Practice files
 
-These are my practice files to help introduce myself to languages like Python, C++, C
-and Concepts like Memory Management, DSA, OOP, and more.
+This repo hosts the practice files I use to learn different Programming Languages and concepts.
+
 
 # C++
 
 ### LearnCpp
 
-- Chapters 4-12 (finished)
+- Chapters 4-13 (finished)
 
-- Chapter 13 (In-Progress)
+- Chapter 14 (In-Progress)
 
 # Python
 
@@ -27,6 +27,6 @@ Chapters (Chapter 1) - (Chapter ???)
 # Elisp
 
 ## An Introduction to Programming in Emacs Lisp
-Chapter (1-7) Complete 
+Chapter (1-10) Complete 
 
     
