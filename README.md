@@ -1,6 +1,6 @@
 # Practice files
 
-This repo hosts the practice files I use to learn different Programming Languages and concepts.
+This repo hosts the practice files I use to learn different Programming Languages, Paradigms, and concepts.
 
 
 # C++
@@ -16,7 +16,7 @@ This repo hosts the practice files I use to learn different Programming Language
 ### Python3
 
 - Official Python3 Tutorial Chapters 3-13 (Entire Tutorial Complete)
-
+- Beej's Guide to Networking Concepts []
 
 # C
 
@@ -27,6 +27,6 @@ Chapters (Chapter 1) - (Chapter ???)
 # Elisp
 
 ## An Introduction to Programming in Emacs Lisp
-Chapter (1-10) Complete 
+Chapter (1-10) Completed 
 
     

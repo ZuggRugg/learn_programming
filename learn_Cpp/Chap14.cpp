@@ -40,6 +40,7 @@ void Employee::setVar() {
   this->m_wage = wage;
 }
 
+
 int main(void) {
   Employee Justin;
   Justin.setVar();
