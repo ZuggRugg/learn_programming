@@ -1,9 +1,13 @@
+// testing file for many ideas
+
 #include <iostream>
 #include <array>
 #include <stdio.h>
+#include <string>
 #include <vector>
 
 #include "test2.h" // Include header file 
+#include "constants.h" // Include header file 
 
 // testing file to explore other various concepts in the C++ language that peek my interest.
 int main(void) {
@@ -39,7 +43,11 @@ int main(void) {
   std::cout << "\n" << sizeof(newvec)*5 << "\n"; // you can multiply the sizeof() operator
 
   //use function from header file
-  std::cout << add(1,3) << " is equal to " << add(2,2);
+  std::cout << add(1,3) << " is equal to " << add(2,2) << "\n";
+
+
+  std::cout << pBreak;
+
 }
 
 
