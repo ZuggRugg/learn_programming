@@ -21,7 +21,7 @@ int main(void) {
   // initialize an array with a list for fast use
   std::array<int, 5> newarray = { 1, 2, 3, 4, 5 }; 
   id = sizeof(newarray);
-  std::cout << "\nthis is the size of the array: " << id;
+  std::cout << "\nthis is the size of the array: " << id << pBreak;
 
   // why the hell is an unintialized array one byte??? but one with 5 integers is exactly 20 bytes??? 
   std::array<int, 0> emptarray;

@@ -1,0 +1,34 @@
+use std::io;
+
+fn main() {
+
+    let new_num : i32 = (5*51*-40)-42;
+
+    println!("{}", new_num);
+
+    let mut y : f32 = 2.07182818;
+    y = y + 1.0;
+    println!("{}", y);
+
+    println!("{}", new_func());
+
+    let n = -15;
+
+    if n < 0 {
+        print!("{} is negative", n);
+    } else if n > 0 {
+        print!("{} is positive", n);
+    } else {
+        print!("{} is zero", n);
+    }
+}
+
+fn new_func() -> i32 {
+
+println!("This is my new function!!!!!");
+
+let return_num : i32 = 5;
+
+return_num
+}
+
