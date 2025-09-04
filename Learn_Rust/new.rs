@@ -1,3 +1,4 @@
+#[allow(unused_imports)]
 use std::io;
 
 fn main() {
@@ -21,14 +22,23 @@ fn main() {
     } else {
         print!("{} is zero", n);
     }
+
+    println!("\n{}", args_func(5, 4));
+
 }
 
 fn new_func() -> i32 {
+    println!("This is my new function!!!!!");
 
-println!("This is my new function!!!!!");
+    let return_num : i32 = 5;
 
-let return_num : i32 = 5;
+    return_num
+}
 
-return_num
+fn args_func(newnum: i32, another: i32) -> i32 {
+    let mut x : i32 = 51;
+    x = x * 4;
+    x = x + newnum + another;
+    x
 }
 
